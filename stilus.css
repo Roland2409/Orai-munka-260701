@@ -89,3 +89,19 @@ ol li{
 ol{background-color:  hsla(230, 26%, 24%, 0.671);
     padding: 10px;
 }
+
+@media only screen and (max-width: 600px){
+
+main
+{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas: 
+    'h'
+    'n'
+    'as'
+    'f'
+    'ar'
+    ;
+}
+}
